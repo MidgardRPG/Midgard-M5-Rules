@@ -1,0 +1,84 @@
+name: Release Rulebooks
+
+# Trigger: Entweder ein Tag-Push (z.B. git push --tags)
+# oder manuell über die GitHub Actions UI.
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Alle Unterordner mit meta.json als Regelwerke erkennen und kombinieren.
+      # Neue Ordner werden automatisch gefunden — kein Code-Change nötig.
+      - name: Build rulebooks
+        run: |
+          mkdir -p dist
+          for dir in */; do
+            name="${dir%/}"
+            if [ -f "$name/meta.json" ]; then
+              echo "Building: $name"
+              python combine_rulebook.py "$name" "dist/$name.json"
+            fi
+          done
+
+      # Release-Name: "Release YYYY-MM-DD"
+      # Falls schon vorhanden: "Release YYYY-MM-DD_2", "_3", ...
+      - name: Determine release name and tag
+        id: names
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BASE_DATE=$(date +%Y-%m-%d)
+          BASE_NAME="Release ${BASE_DATE}"
+          NAME="$BASE_NAME"
+          COUNTER=2
+
+          # Vorhandene Release-Namen laden (max. 100)
+          EXISTING=$(gh release list \
+            --repo "$GITHUB_REPOSITORY" \
+            --limit 100 \
+            --json name \
+            --jq '.[].name' 2>/dev/null || echo "")
+
+          # Solange inkrementieren bis der Name frei ist
+          while echo "$EXISTING" | grep -qxF "$NAME"; do
+            NAME="${BASE_NAME}_${COUNTER}"
+            COUNTER=$((COUNTER + 1))
+          done
+
+          echo "release_name=$NAME" >> "$GITHUB_OUTPUT"
+
+          # Bei manuellem Start: Tag aus dem Release-Namen ableiten
+          # z.B. "Release 2026-05-25" → "release-2026-05-25"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TAG=$(echo "$NAME" | sed 's/Release /release-/' | tr ' ' '-')
+            echo "tag_name=$TAG" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag_name=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Release erstellen und alle kombinierten JSON-Dateien anhängen
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.names.outputs.tag_name }}
+          name: ${{ steps.names.outputs.release_name }}
+          files: dist/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
