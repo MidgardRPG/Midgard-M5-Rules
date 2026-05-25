@@ -1,11 +1,37 @@
 {
   "socialStatuses": [
     {
-      "id": "free_citizen",
-      "name": "Freier Bürger",
-      "description": "A free citizen of a town or city. Placeholder — data to be filled in.",
-      "startingGold": 0,
-      "availableTypes": []
+      "id": "unfrei",
+      "name": "Unfrei",
+      "startingSkills": {
+        "le": 2,
+        "group": "Halbw."
+      }
+    },
+    {
+      "id": "volk",
+      "name": "Volk",
+      "startingSkills": {
+        "le": 2,
+        "group": "Alltag"
+      }
+    },
+    {
+      "id": "mittelschicht",
+      "name": "Mittelschicht",
+      "startingSkills": {
+        "le": 2,
+        "group": "Wissen"
+      }
+    },
+    {
+      "id": "adel",
+      "name": "Adel",
+      "startingSkills": {
+        "le": 2,
+        "group": "Sozial",
+        "maxDifficulty": "leicht"
+      }
     }
   ]
 }
