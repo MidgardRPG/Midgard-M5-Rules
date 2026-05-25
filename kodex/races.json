@@ -1,0 +1,14 @@
+{
+  "races": [
+    {
+      "id": "human",
+      "name": "Mensch",
+      "description": "The most common race. No restrictions on type selection.",
+      "propertyModifiers": { "St": 0, "Gs": 0, "Gw": 0, "Ko": 0, "In": 0, "Zt": 0 },
+      "baseMovement": 10,
+      "availableTypes": [],
+      "startingLanguages": ["common"],
+      "specialAbilities": []
+    }
+  ]
+}

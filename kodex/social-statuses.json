@@ -1,0 +1,11 @@
+{
+  "socialStatuses": [
+    {
+      "id": "free_citizen",
+      "name": "Freier Bürger",
+      "description": "A free citizen of a town or city. Placeholder — data to be filled in.",
+      "startingGold": 0,
+      "availableTypes": []
+    }
+  ]
+}

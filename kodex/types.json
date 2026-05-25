@@ -1,0 +1,310 @@
+{
+  "types": [
+    {
+      "id": "As",
+      "name": "Assassine",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 20,
+        "Halbw.": 20,
+        "Kampf": 30,
+        "Körper": 10,
+        "Sozial": 20,
+        "Unterw.": 10,
+        "Waffen": 20,
+        "Wissen": 20
+      }
+    },
+    {
+      "id": "Bb",
+      "name": "Barbar",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 10,
+        "Halbw.": 30,
+        "Kampf": 10,
+        "Körper": 10,
+        "Sozial": 30,
+        "Unterw.": 30,
+        "Waffen": 20,
+        "Wissen": 40
+      }
+    },
+    {
+      "id": "Gl",
+      "name": "Glücksritter",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 30,
+        "Halbw.": 10,
+        "Kampf": 20,
+        "Körper": 30,
+        "Sozial": 10,
+        "Unterw.": 30,
+        "Waffen": 20,
+        "Wissen": 20
+      }
+    },
+    {
+      "id": "Hä",
+      "name": "Händler",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag": 10,
+        "Freil.": 20,
+        "Halbw.": 20,
+        "Kampf": 20,
+        "Körper": 20,
+        "Sozial": 10,
+        "Unterw.": 40,
+        "Waffen": 20,
+        "Wissen": 20
+      }
+    },
+    {
+      "id": "Kr",
+      "name": "Krieger",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 30,
+        "Halbw.": 30,
+        "Kampf": 10,
+        "Körper": 20,
+        "Sozial": 20,
+        "Unterw.": 30,
+        "Waffen": 10,
+        "Wissen": 40
+      }
+    },
+    {
+      "id": "Sp",
+      "name": "Spitzbube",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 30,
+        "Halbw.": 10,
+        "Kampf": 40,
+        "Körper": 10,
+        "Sozial": 10,
+        "Unterw.": 10,
+        "Waffen": 20,
+        "Wissen": 30
+      }
+    },
+    {
+      "id": "Wa",
+      "name": "Waldläufer",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 10,
+        "Halbw.": 20,
+        "Kampf": 20,
+        "Körper": 10,
+        "Sozial": 30,
+        "Unterw.": 30,
+        "Waffen": 20,
+        "Wissen": 20
+      }
+    },
+    {
+      "id": "Ba",
+      "name": "Barde",
+      "category": "KampfZauberer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 20,
+        "Halbw.": 20,
+        "Kampf": 30,
+        "Körper": 20,
+        "Sozial": 10,
+        "Unterw.": 40,
+        "Waffen": 20,
+        "Wissen": 20
+      },
+      "spellCosts": {
+        "Lied": 30
+      }
+    },
+    {
+      "id": "Or",
+      "name": "Ordenskrieger",
+      "category": "KampfZauberer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 20,
+        "Halbw.": 40,
+        "Kampf": 20,
+        "Körper": 10,
+        "Sozial": 20,
+        "Unterw.": 40,
+        "Waffen": 20,
+        "Wissen": 30
+      },
+      "spellCosts": {
+        "Wunder": 30
+      }
+    },
+    {
+      "id": "Dr",
+      "name": "Druide",
+      "category": "Zauberer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 10,
+        "Halbw.": 40,
+        "Kampf": 40,
+        "Körper": 20,
+        "Sozial": 30,
+        "Unterw.": 40,
+        "Waffen": 40,
+        "Wissen": 10
+      },
+      "spellCosts": {
+        "Beherr.": 90,
+        "Beweg.": 60,
+        "Erkenn.": 120,
+        "Erschaff.": 90,
+        "Formen": 60,
+        "Veränd.": 90,
+        "Zerstören": 120,
+        "Dweom.": 30
+      }
+    },
+    {
+      "id": "Hx",
+      "name": "Hexer",
+      "category": "Zauberer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 20,
+        "Halbw.": 30,
+        "Kampf": 40,
+        "Körper": 30,
+        "Sozial": 20,
+        "Unterw.": 30,
+        "Waffen": 40,
+        "Wissen": 20
+      },
+      "spellCosts": {
+        "Beherr.": 30,
+        "Beweg.": 90,
+        "Erkenn.": 90,
+        "Erschaff.": 90,
+        "Formen": 60,
+        "Veränd.": 30,
+        "Zerstören": 60,
+        "Dweom.": 90
+      }
+    },
+    {
+      "id": "Ma",
+      "name": "Magier",
+      "category": "Zauberer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 30,
+        "Halbw.": 40,
+        "Kampf": 40,
+        "Körper": 30,
+        "Sozial": 30,
+        "Unterw.": 40,
+        "Waffen": 40,
+        "Wissen": 10
+      },
+      "spellCosts": {
+        "Beherr.": 60,
+        "Beweg.": 60,
+        "Erkenn.": 60,
+        "Erschaff.": 60,
+        "Formen": 60,
+        "Veränd.": 60,
+        "Zerstören": 60
+      }
+    },
+    {
+      "id": "PB",
+      "name": "Priester, Beschützer",
+      "category": "Zauberer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 30,
+        "Halbw.": 30,
+        "Kampf": 40,
+        "Körper": 30,
+        "Sozial": 10,
+        "Unterw.": 40,
+        "Waffen": 40,
+        "Wissen": 20
+      },
+      "spellCosts": {
+        "Beherr.": 60,
+        "Beweg.": 90,
+        "Erkenn.": 60,
+        "Erschaff.": 90,
+        "Formen": 120,
+        "Veränd.": 120,
+        "Zerstören": 90,
+        "Wunder": 30
+      }
+    },
+    {
+      "id": "PS",
+      "name": "Priester, Streiter",
+      "category": "Zauberer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 30,
+        "Halbw.": 40,
+        "Kampf": 30,
+        "Körper": 30,
+        "Sozial": 30,
+        "Unterw.": 40,
+        "Waffen": 30,
+        "Wissen": 20
+      },
+      "spellCosts": {
+        "Beherr.": 90,
+        "Beweg.": 90,
+        "Erkenn.": 90,
+        "Erschaff.": 60,
+        "Formen": 120,
+        "Veränd.": 120,
+        "Zerstören": 60,
+        "Wunder": 30
+      }
+    },
+    {
+      "id": "Sc",
+      "name": "Schamane",
+      "category": "Zauberer",
+      "groupCosts": {
+        "Alltag": 20,
+        "Freil.": 10,
+        "Halbw.": 40,
+        "Kampf": 40,
+        "Körper": 20,
+        "Sozial": 20,
+        "Unterw.": 40,
+        "Waffen": 40,
+        "Wissen": 20
+      },
+      "spellCosts": {
+        "Beherr.": 60,
+        "Beweg.": 90,
+        "Erkenn.": 60,
+        "Erschaff.": 120,
+        "Formen": 120,
+        "Veränd.": 60,
+        "Zerstören": 60,
+        "Wunder": 60,
+        "Dweom.": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "origins": [
+    {
+      "id": "city",
+      "name": "Stadt",
+      "description": "Grew up in a city. Placeholder — data to be filled in.",
+      "startingSkills": [],
+      "startingLanguages": []
+    }
+  ]
+}
