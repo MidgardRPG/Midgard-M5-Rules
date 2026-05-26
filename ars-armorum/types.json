@@ -1,0 +1,141 @@
+{
+  "types": [
+    {
+      "id": "Du",
+      "name": "Duellant",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag":  20,
+        "Freil.":  30,
+        "Halbw.":  20,
+        "Kampf":   10,
+        "Körper":  20,
+        "Sozial":  20,
+        "Unterw.": 40,
+        "Waffen":  20,
+        "Wissen":  20
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    },
+    {
+      "id": "Fi",
+      "name": "Fian",
+      "category": "KampfZauberer",
+      "groupCosts": {
+        "Alltag":  20,
+        "Freil.":  20,
+        "Halbw.":  40,
+        "Kampf":   10,
+        "Körper":  10,
+        "Sozial":  30,
+        "Unterw.": 40,
+        "Waffen":  20,
+        "Wissen":  20
+      },
+      "spellCosts": {
+        "Veränd.": 60,
+        "Dweom.":  60
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    },
+    {
+      "id": "Kw",
+      "name": "Kampfwüter",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag":  20,
+        "Freil.":  20,
+        "Halbw.":  20,
+        "Kampf":   10,
+        "Körper":  20,
+        "Sozial":  30,
+        "Unterw.": 40,
+        "Waffen":  20,
+        "Wissen":  40
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    },
+    {
+      "id": "KD",
+      "name": "KiDoka",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag":  20,
+        "Freil.":  30,
+        "Halbw.":  20,
+        "Kampf":   20,
+        "Körper":  10,
+        "Sozial":  30,
+        "Unterw.": 40,
+        "Waffen":  20,
+        "Wissen":  30
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    },
+    {
+      "id": "NY",
+      "name": "NinYa",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag":  20,
+        "Freil.":  20,
+        "Halbw.":  20,
+        "Kampf":   10,
+        "Körper":  10,
+        "Sozial":  20,
+        "Unterw.": 20,
+        "Waffen":  20,
+        "Wissen":  30
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    },
+    {
+      "id": "Sk",
+      "name": "Skalde",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag":  20,
+        "Freil.":  20,
+        "Halbw.":  30,
+        "Kampf":   20,
+        "Körper":  20,
+        "Sozial":  10,
+        "Unterw.": 40,
+        "Waffen":  20,
+        "Wissen":  20
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    },
+    {
+      "id": "Wm",
+      "name": "Waffenmeister",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag":  20,
+        "Freil.":  30,
+        "Halbw.":  30,
+        "Kampf":   10,
+        "Körper":  20,
+        "Sozial":  30,
+        "Unterw.": 30,
+        "Waffen":  20,
+        "Wissen":  40
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    }
+  ]
+}
