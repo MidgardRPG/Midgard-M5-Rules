@@ -924,6 +924,93 @@
       "maxValue": null,
       "linkedProperty": null,
       "notes": "Special entry for spells and songs. Not a regular skill. spellLevelCosts[i] = LE to learn a spell of level i+1 (index 0 = Stufe 1, index 11 = Stufe 12). EP cost = spellLevelCosts[stufe-1] × type.spellCosts[chosenSpellGroup]."
+    },
+    {
+      "id": "Einprägen",
+      "name": "Einprägen",
+      "baseValue": 4,
+      "maxValue": 4,
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Gute Reflexe",
+      "name": "Gute Reflexe",
+      "baseValue": 9,
+      "maxValue": 9,
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Richtungssinn",
+      "name": "Richtungssinn",
+      "baseValue": 12,
+      "maxValue": 12,
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Robustheit",
+      "name": "Robustheit",
+      "baseValue": 9,
+      "maxValue": 9,
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Schmerzunempfindlichkeit",
+      "name": "Schmerzunempfindlichkeit",
+      "baseValue": 9,
+      "maxValue": 9,
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Wachgabe",
+      "name": "Wachgabe",
+      "baseValue": 6,
+      "maxValue": 6,
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Berserkergang",
+      "name": "Berserkergang",
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Raufen",
+      "name": "Raufen",
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Trinken",
+      "name": "Trinken",
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Wahrnehmung",
+      "name": "Wahrnehmung",
+      "notes": "Angeborene Fertigkeit"
+    },
+    {
+      "id": "Hören",
+      "name": "Hören",
+      "notes": "Sinn — Basiswert wie Wahrnehmung"
+    },
+    {
+      "id": "Nachtsicht",
+      "name": "Nachtsicht",
+      "notes": "Sinn — Basiswert wie Wahrnehmung"
+    },
+    {
+      "id": "Riechen",
+      "name": "Riechen",
+      "notes": "Sinn — Basiswert wie Wahrnehmung"
+    },
+    {
+      "id": "Sechster Sinn",
+      "name": "Sechster Sinn",
+      "notes": "Sinn — Basiswert wie Wahrnehmung"
+    },
+    {
+      "id": "Sehen",
+      "name": "Sehen",
+      "notes": "Sinn — Basiswert wie Wahrnehmung"
     }
   ]
 }

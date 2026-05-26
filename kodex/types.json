@@ -14,7 +14,10 @@
         "Unterw.": 10,
         "Waffen": 20,
         "Wissen": 20
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Bb",
@@ -30,7 +33,10 @@
         "Unterw.": 30,
         "Waffen": 20,
         "Wissen": 40
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Gl",
@@ -46,7 +52,10 @@
         "Unterw.": 30,
         "Waffen": 20,
         "Wissen": 20
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Hä",
@@ -62,7 +71,10 @@
         "Unterw.": 40,
         "Waffen": 20,
         "Wissen": 20
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Kr",
@@ -78,7 +90,10 @@
         "Unterw.": 30,
         "Waffen": 10,
         "Wissen": 40
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Sp",
@@ -94,7 +109,10 @@
         "Unterw.": 10,
         "Waffen": 20,
         "Wissen": 30
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Wa",
@@ -110,7 +128,10 @@
         "Unterw.": 30,
         "Waffen": 20,
         "Wissen": 20
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Ba",
@@ -129,7 +150,10 @@
       },
       "spellCosts": {
         "Lied": 30
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Or",
@@ -148,7 +172,10 @@
       },
       "spellCosts": {
         "Wunder": 30
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
     },
     {
       "id": "Dr",
@@ -174,7 +201,11 @@
         "Veränd.": 90,
         "Zerstören": 120,
         "Dweom.": 30
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 2 },
+        { "id": "ResBk", "value": 2 }
+      ]
     },
     {
       "id": "Hx",
@@ -200,7 +231,11 @@
         "Veränd.": 30,
         "Zerstören": 60,
         "Dweom.": 90
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 2 },
+        { "id": "ResBk", "value": 2 }
+      ]
     },
     {
       "id": "Ma",
@@ -225,7 +260,11 @@
         "Formen": 60,
         "Veränd.": 60,
         "Zerstören": 60
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 2 },
+        { "id": "ResBk", "value": 2 }
+      ]
     },
     {
       "id": "PB",
@@ -251,7 +290,11 @@
         "Veränd.": 120,
         "Zerstören": 90,
         "Wunder": 30
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 2 },
+        { "id": "ResBk", "value": 2 }
+      ]
     },
     {
       "id": "PS",
@@ -277,7 +320,11 @@
         "Veränd.": 120,
         "Zerstören": 60,
         "Wunder": 30
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 2 },
+        { "id": "ResBk", "value": 2 }
+      ]
     },
     {
       "id": "Sc",
@@ -304,7 +351,11 @@
         "Zerstören": 60,
         "Wunder": 60,
         "Dweom.": 60
-      }
+      },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 2 },
+        { "id": "ResBk", "value": 2 }
+      ]
     }
   ]
 }

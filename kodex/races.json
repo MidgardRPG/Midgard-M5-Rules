@@ -2,11 +2,8 @@
   "races": [
     {
       "id": "mensch",
-      "name": "Mensch",
-      "movementFormula": "4W3+16",
-      "availableTypes": [],
-      "resistanceBonus": { "geist": 0, "koerper": 0 },
-      "specialAbilities": []
+      "name": "Mensch"
+
     },
     {
       "id": "elfen",
@@ -19,15 +16,18 @@
         "Zt": { "min": 51 },
         "Au": { "min": 81 }
       },
-      "movementFormula": "4W3+16",
+
       "availableTypes": ["Gl", "Kr", "Wa", "Ba", "Dr", "Hx", "Ma"],
-      "resistanceBonus": { "geist": 2, "koerper": 2 },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 2 },
+        { "id": "ResBk", "value": 2 }
+      ],
       "forbiddenSkills": [
         "Fälschen", "Fechten", "Gassenwissen", "Gerätekunde",
         "Geschäftssinn", "Glücksspiel", "Meucheln", "Schlösser öffnen", "Stehlen"
       ],
-      "specialAbilities": [
-        { "skill": "Nachtsicht", "bonus": 2 }
+      "skillBonuses": [
+        { "skillId": "Nachtsicht", "value": 2 }
       ]
     },
     {
@@ -41,16 +41,21 @@
         "Au": { "max": 80 }
       },
       "lpModifier": -3,
-      "movementFormula": "2W3+8",
+
       "availableTypes": ["As", "Gl", "Sp", "Wa", "Dr", "Hx", "Ma"],
-      "resistanceBonus": { "geist": 4, "koerper": 4 },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 4 },
+        { "id": "ResBk", "value": 4 }
+      ],
       "forbiddenSkills": [
         "Stockwaffen", "Zweihandschlagwaffen", "Zweihandschwerter"
       ],
-      "specialAbilities": [
-        { "skill": "Nachtsicht", "bonus": 2 },
-        { "skill": "Robustheit", "bonus": 12 },
-        { "skill": "Hören", "bonus": 2 }
+      "skillBonuses": [
+        { "skillId": "Nachtsicht", "value": 2 },
+        { "skillId": "Hören", "value": 2 }
+      ],
+      "skills": [
+        { "skillId": "Robustheit", "value": 12 }
       ],
       "fixedSize": "klein",
       "fixedHandedness": "beidhändig"
@@ -65,14 +70,18 @@
         "Ko": { "min": 41 }
       },
       "lpModifier": -2,
-      "movementFormula": "2W3+8",
+
       "availableTypes": ["As", "Hä", "Sp", "Wa", "Ba", "PB"],
-      "resistanceBonus": { "geist": 4, "koerper": 4 },
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 4 },
+        { "id": "ResBk", "value": 4 }
+      ],
       "forbiddenSkills": [
         "Stockwaffen", "Zweihandschlagwaffen", "Zweihandschwerter"
       ],
-      "specialAbilities": [
-        { "skill": "Gute Reflexe", "bonus": 9 }
+      "skillBonuses": [],
+      "skills": [
+        { "skillId": "Gute Reflexe", "value": 9 }
       ],
       "fixedSize": "klein"
     },
@@ -86,13 +95,18 @@
         "Au": { "max": 80 }
       },
       "lpModifier": 1,
-      "movementFormula": "3W3+12",
+
       "availableTypes": ["Hä", "Kr", "Ma", "PB", "PS"],
-      "resistanceBonus": { "geist": 3, "koerper": 3 },
-      "specialAbilities": [
-        { "skill": "Nachtsicht", "bonus": 2 },
-        { "skill": "Robustheit", "bonus": 9 },
-        { "skill": "Raufen", "bonus": 1 }
+      "propertyBonuses": [
+        { "id": "ResBg", "value": 3 },
+        { "id": "ResBk", "value": 3 }
+      ],
+      "skillBonuses": [
+        { "skillId": "Nachtsicht", "value": 2 },
+        { "skillId": "Raufen", "value": 1 }
+      ],
+      "skills": [
+        { "skillId": "Robustheit", "value": 9 }
       ],
       "fixedSize": "klein"
     }
