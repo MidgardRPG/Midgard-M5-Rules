@@ -1,11 +1,144 @@
 {
   "origins": [
     {
-      "id": "city",
-      "name": "Stadt",
-      "description": "Grew up in a city. Placeholder — data to be filled in.",
-      "startingSkills": [],
-      "startingLanguages": []
+      "id": "Alba",
+      "name": "Alba",
+      "sprachen":     ["Albisch"],
+      "alteSprachen": ["Altoqua"],
+      "schriften":    []
+    },
+    {
+      "id": "Aran",
+      "name": "Aran",
+      "sprachen":     ["Aranisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Buluga",
+      "name": "Buluga",
+      "sprachen":     ["Kibulugi"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Chryseia",
+      "name": "Chryseia",
+      "sprachen":     ["Chryseisch"],
+      "alteSprachen": ["Maralinga", "Tuskisch"],
+      "schriften":    []
+    },
+    {
+      "id": "Clanngadarn",
+      "name": "Clanngadarn",
+      "sprachen":     ["Twyneddisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Erainn",
+      "name": "Erainn",
+      "sprachen":     ["Erainnisch"],
+      "alteSprachen": ["Eradórisch", "Hochcoraniaid"],
+      "schriften":    []
+    },
+    {
+      "id": "Fuardain",
+      "name": "Fuardain",
+      "sprachen":     ["Twyneddisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Ikengabecken",
+      "name": "Ikengabecken",
+      "sprachen":     ["Ongana"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "KanThaiPan",
+      "name": "KanThaiPan",
+      "sprachen":     ["KanThaiTun"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Küstenstaaten",
+      "name": "Küstenstaaten",
+      "sprachen":     ["Neu-Vallinga"],
+      "alteSprachen": ["Maralinga"],
+      "schriften":    []
+    },
+    {
+      "id": "Medjis",
+      "name": "Medjis",
+      "sprachen":     ["Medjisisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Minangpahit",
+      "name": "Minangpahit",
+      "sprachen":     ["Minangpahitisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Moravod",
+      "name": "Moravod",
+      "sprachen":     ["Moravisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Nahuatlan",
+      "name": "Nahuatlan",
+      "sprachen":     ["Nahuatlantisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Rawindra",
+      "name": "Rawindra",
+      "sprachen":     ["Rawindi"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Tegarische Steppe",
+      "name": "Tegarische Steppe",
+      "sprachen":     ["Tegarisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Urruti",
+      "name": "Urruti",
+      "sprachen":     ["Hurritisch"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Valian",
+      "name": "Valian",
+      "sprachen":     ["Vallinga"],
+      "alteSprachen": ["Maralinga"],
+      "schriften":    []
+    },
+    {
+      "id": "Waeland",
+      "name": "Waeland",
+      "sprachen":     ["Waelska"],
+      "alteSprachen": [],
+      "schriften":    []
+    },
+    {
+      "id": "Ywerddon",
+      "name": "Ywerddon",
+      "sprachen":     ["Erainnisch", "Twyneddisch"],
+      "alteSprachen": [],
+      "schriften":    []
     }
   ]
 }
