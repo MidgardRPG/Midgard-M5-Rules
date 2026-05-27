@@ -914,6 +914,55 @@
       "notes": ""
     },
     {
+      "id": "Abwehr",
+      "name": "Abwehr",
+   
+      "bonusKey": "AbB",
+      "notes": "Grad-abhängige Fertigkeit. FW steigt automatisch mit bestimmten Graden. Wert manuell eintragen.",
+      "gradValues": [
+        { "grad": 1,  "fw": 11 },
+        { "grad": 2,  "fw": 12 },
+        { "grad": 5,  "fw": 13 },
+        { "grad": 10, "fw": 14 },
+        { "grad": 15, "fw": 15 },
+        { "grad": 20, "fw": 16 },
+        { "grad": 25, "fw": 17 },
+        { "grad": 30, "fw": 18 }
+      ]
+    },
+    {
+      "id": "Resistenz",
+      "name": "Resistenz",
+      "notes": "Grad-abhängige Fertigkeit gegen Magie. FW steigt automatisch mit bestimmten Graden.",
+      "gradValues": [
+        { "grad": 1,  "fw": 11 },
+        { "grad": 2,  "fw": 12 },
+        { "grad": 5,  "fw": 13 },
+        { "grad": 10, "fw": 14 },
+        { "grad": 15, "fw": 15 },
+        { "grad": 20, "fw": 16 },
+        { "grad": 25, "fw": 17 },
+        { "grad": 30, "fw": 18 }
+      ]
+    },
+    {
+      "id": "Zaubern",
+      "name": "Zaubern",
+    
+      "bonusKey": "ZauB",
+      "notes": "Grad-abhängige Fertigkeit (nur Zauberer / KampfZauberer). FW steigt mit bestimmten Graden. Wert manuell eintragen.",
+      "gradValues": [
+        { "grad": 1,  "fw": 11 },
+        { "grad": 2,  "fw": 12 },
+        { "grad": 4,  "fw": 13 },
+        { "grad": 6,  "fw": 14 },
+        { "grad": 8,  "fw": 15 },
+        { "grad": 10, "fw": 16 },
+        { "grad": 15, "fw": 17 },
+        { "grad": 20, "fw": 18 }
+      ]
+    },
+    {
       "id": "Zaubersprüche",
       "name": "Zaubersprüche",
       "groups": [],
@@ -975,6 +1024,7 @@
     {
       "id": "Raufen",
       "name": "Raufen",
+      "bonusKey": "AnB",
       "notes": "Angeborene Fertigkeit"
     },
     {
