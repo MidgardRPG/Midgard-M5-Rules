@@ -1,0 +1,22 @@
+{
+  "scripts": [
+    { "name": "Aranische Silbenschrift",               "regions": ["Aran", "Eschar"] },
+    { "name": "Arracht-Versalien",                     "regions": ["Dunkle Sprache"] },
+    { "name": "Baumrunen Beth-Luis-Nion",              "regions": ["Elfen", "Waldgnome"] },
+    { "name": "Hurritische Keilschrift",               "regions": ["Asad", "Irsirra-Amazonen", "Urruti"] },
+    { "name": "Kanthanische Schriftzeichen",           "regions": ["KanThaiPan"] },
+    { "name": "Nahuatlantische Knotenschrift Quipu",   "regions": ["Nahuatlan"] },
+    { "name": "Rawindisches Alphabet",                 "regions": ["Minangpahit", "Rawindra"] },
+    { "name": "Valianisches Alphabet",                 "regions": ["Alba", "Chryseia", "Clanngadarn", "Comentang", "Erainn", "Halblinge", "Küstenstaaten", "Maralinga", "Moravod", "Valian", "Ywerddon"] },
+    { "name": "Zwergenrunen Futhark",                  "regions": ["Berggnome", "Waeland", "Zwerge"] },
+    { "name": "Bettlerzinken",                         "secret": true, "regions": ["Länder am Meer der Fünf Winde", "Rawindra", "Vesternesse"] },
+    { "name": "Bulugische Bilderschrift",              "secret": true, "regions": ["Buluga"] },
+    { "name": "Coraniaid-Alphabet Aibitirién",         "old": true, "secret": true, "regions": ["Erainn"] },
+    { "name": "Druidische Ogam-Zeichen",               "secret": true, "regions": ["Clanngadarn", "Fuardain", "Ywerddon"] },
+    { "name": "Lamaistische Silbenschrift",            "secret": true, "regions": ["Tegaren", "Berekyndai"] },
+    { "name": "Meketische Bilderschrift",              "old": true, "regions": ["Eschar"] },
+    { "name": "Nahuatlantische Bilderschrift",         "old": true, "secret": true, "regions": ["Nahuatlan"] },
+    { "name": "Toquinische Silbenschrift",             "old": true, "secret": true, "regions": ["Alba"] },
+    { "name": "Tuskische Keilschrift",                 "old": true, "regions": ["Chryseia"] }
+  ]
+}
