@@ -1,6 +1,31 @@
 {
   "types": [
     {
+      "id": "As",
+      "name": "Assassine",
+      "category": "Kämpfer",
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 60, "Schießk.": 30, "KiDo": 60 }
+    },
+    {
+      "id": "Ba",
+      "name": "Barde",
+      "category": "KampfZauberer",
+      "spellCosts": {
+        "Kampfverse":   60,
+        "Lied":         30
+      },
+      "fightCosts": { "Kampfk.": 90, "Fechtk.": 60, "Schießk.": 60, "KiDo": 60 },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    },
+    {
+      "id": "Bb",
+      "name": "Barbar",
+      "category": "Kämpfer",
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 90, "Schießk.": 60, "KiDo": 60 }
+    },
+    {
       "id": "Du",
       "name": "Duellant",
       "category": "Kämpfer",
@@ -15,9 +40,16 @@
         "Waffen":  20,
         "Wissen":  20
       },
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 30, "Schießk.": 60, "KiDo": 90 },
       "propertyBonuses": [
         { "id": "ResBk", "value": 1 }
       ]
+    },
+    {
+      "id": "Er",
+      "name": "Ermittler",
+      "category": "KampfZauberer",
+      "fightCosts": { "Kampfk.": 90, "Fechtk.": 60, "Schießk.": 90, "KiDo": 60 }
     },
     {
       "id": "Fi",
@@ -38,28 +70,22 @@
         "Veränd.": 60,
         "Dweom.":  60
       },
+      "fightCosts": { "Kampfk.": 90, "Fechtk.": 90, "Schießk.": 60, "KiDo": 90 },
       "propertyBonuses": [
         { "id": "ResBk", "value": 1 }
       ]
     },
     {
-      "id": "Kw",
-      "name": "Kampfwüter",
+      "id": "Gl",
+      "name": "Glücksritter",
       "category": "Kämpfer",
-      "groupCosts": {
-        "Alltag":  20,
-        "Freil.":  20,
-        "Halbw.":  20,
-        "Kampf":   10,
-        "Körper":  20,
-        "Sozial":  30,
-        "Unterw.": 40,
-        "Waffen":  20,
-        "Wissen":  40
-      },
-      "propertyBonuses": [
-        { "id": "ResBk", "value": 1 }
-      ]
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 60, "Schießk.": 60, "KiDo": 60 }
+    },
+    {
+      "id": "Hä",
+      "name": "Händler",
+      "category": "Kämpfer",
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 60, "Schießk.": 60, "KiDo": 60 }
     },
     {
       "id": "KD",
@@ -76,9 +102,42 @@
         "Waffen":  20,
         "Wissen":  30
       },
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 90, "Schießk.": 60, "KiDo": 30 },
       "propertyBonuses": [
         { "id": "ResBk", "value": 1 }
       ]
+    },
+    {
+      "id": "Kr",
+      "name": "Krieger",
+      "category": "Kämpfer",
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 60, "Schießk.": 60, "KiDo": 60 }
+    },
+    {
+      "id": "Kw",
+      "name": "Kampfwüter",
+      "category": "Kämpfer",
+      "groupCosts": {
+        "Alltag":  20,
+        "Freil.":  20,
+        "Halbw.":  20,
+        "Kampf":   10,
+        "Körper":  20,
+        "Sozial":  30,
+        "Unterw.": 40,
+        "Waffen":  20,
+        "Wissen":  40
+      },
+      "fightCosts": { "Kampfk.": 30, "Fechtk.": 90, "Schießk.": 60, "KiDo": 90 },
+      "propertyBonuses": [
+        { "id": "ResBk", "value": 1 }
+      ]
+    },
+    {
+      "id": "Mg",
+      "name": "Magister",
+      "category": "KampfZauberer",
+      "fightCosts": { "Kampfk.": 90, "Fechtk.": 60, "Schießk.": 90, "KiDo": 90 }
     },
     {
       "id": "NY",
@@ -95,14 +154,33 @@
         "Waffen":  20,
         "Wissen":  30
       },
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 90, "Schießk.": 30, "KiDo": 60 },
       "propertyBonuses": [
         { "id": "ResBk", "value": 1 }
       ]
     },
     {
+      "id": "Or",
+      "name": "Ordenskrieger",
+      "category": "KampfZauberer",
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 90, "Schießk.": 90, "KiDo": 90 }
+    },
+    {
+      "id": "Pk",
+      "name": "Paktkrieger",
+      "category": "KampfZauberer",
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 90, "Schießk.": 90, "KiDo": 90 }
+    },
+    {
+      "id": "Sg",
+      "name": "Schattengänger",
+      "category": "KampfZauberer",
+      "fightCosts": { "Kampfk.": 90, "Fechtk.": 60, "Schießk.": 90, "KiDo": 90 }
+    },
+    {
       "id": "Sk",
       "name": "Skalde",
-      "category": "Kämpfer",
+      "category": "KampfZauberer",
       "groupCosts": {
         "Alltag":  20,
         "Freil.":  20,
@@ -114,9 +192,33 @@
         "Waffen":  20,
         "Wissen":  20
       },
+      "spellCosts": {
+        "Kampfverse":   30,
+        "Zauberlieder": 60,
+        "Zauberverse":  90
+      },
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 90, "Schießk.": 60, "KiDo": 90 },
       "propertyBonuses": [
         { "id": "ResBk", "value": 1 }
       ]
+    },
+    {
+      "id": "Sp",
+      "name": "Spitzbube",
+      "category": "Kämpfer",
+      "fightCosts": { "Kampfk.": 90, "Fechtk.": 60, "Schießk.": 60, "KiDo": 60 }
+    },
+    {
+      "id": "Tm",
+      "name": "Tiermeister",
+      "category": "KampfZauberer",
+      "fightCosts": { "Kampfk.": 90, "Fechtk.": 90, "Schießk.": 60, "KiDo": 90 }
+    },
+    {
+      "id": "Wa",
+      "name": "Waldläufer",
+      "category": "Kämpfer",
+      "fightCosts": { "Kampfk.": 60, "Fechtk.": 60, "Schießk.": 30, "KiDo": 60 }
     },
     {
       "id": "Wm",
@@ -133,9 +235,19 @@
         "Waffen":  20,
         "Wissen":  40
       },
+      "fightCosts": { "Kampfk.": 30, "Fechtk.": 60, "Schießk.": 60, "KiDo": 60 },
       "propertyBonuses": [
         { "id": "ResBk", "value": 1 }
       ]
+    },
+    {
+      "id": "ZAU",
+      "name": "Zauberer",
+      "category": "Zauberer",
+      "isMeta": true,
+      "fightCosts": { "Kampfk.": 120, "Fechtk.": 120, "Schießk.": 120, "KiDo": 120 }
     }
   ]
 }
+
+     
