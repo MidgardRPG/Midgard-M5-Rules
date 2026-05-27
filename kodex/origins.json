@@ -3,142 +3,182 @@
     {
       "id": "Alba",
       "name": "Alba",
-      "sprachen":     ["Albisch"],
-      "alteSprachen": ["Altoqua"],
-      "schriften":    []
+      "description": "",
+      "languages": ["Albisch", "Altoqua"]
     },
     {
       "id": "Aran",
       "name": "Aran",
-      "sprachen":     ["Aranisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Aranisch"]
     },
     {
       "id": "Buluga",
       "name": "Buluga",
-      "sprachen":     ["Kibulugi"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Kibulugi"]
     },
     {
       "id": "Chryseia",
       "name": "Chryseia",
-      "sprachen":     ["Chryseisch"],
-      "alteSprachen": ["Maralinga", "Tuskisch"],
-      "schriften":    []
+      "description": "",
+      "languages": ["Chryseisch", "Maralinga", "Tuskisch"]
     },
     {
       "id": "Clanngadarn",
       "name": "Clanngadarn",
-      "sprachen":     ["Twyneddisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Twyneddisch"]
     },
     {
       "id": "Erainn",
       "name": "Erainn",
-      "sprachen":     ["Erainnisch"],
-      "alteSprachen": ["Eradórisch", "Hochcoraniaid"],
-      "schriften":    []
+      "description": "",
+      "languages": ["Erainnisch", "Eradórisch", "Hochcoraniaid"]
+    },
+    {
+      "id": "Eschar",
+      "name": "Eschar",
+      "description": "",
+      "languages": ["Scharidisch", "Meketisch"]
     },
     {
       "id": "Fuardain",
       "name": "Fuardain",
-      "sprachen":     ["Twyneddisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Twyneddisch"]
     },
     {
       "id": "Ikengabecken",
       "name": "Ikengabecken",
-      "sprachen":     ["Ongana"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Ongana"]
     },
     {
       "id": "KanThaiPan",
       "name": "KanThaiPan",
-      "sprachen":     ["KanThaiTun"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["KanThaiTun"]
     },
     {
       "id": "Küstenstaaten",
       "name": "Küstenstaaten",
-      "sprachen":     ["Neu-Vallinga"],
-      "alteSprachen": ["Maralinga"],
-      "schriften":    []
+      "description": "",
+      "languages": ["Neu-Vallinga", "Maralinga"]
     },
     {
       "id": "Medjis",
       "name": "Medjis",
-      "sprachen":     ["Medjisisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Medjisisch"]
     },
     {
       "id": "Minangpahit",
       "name": "Minangpahit",
-      "sprachen":     ["Minangpahitisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Minangpahitisch"]
     },
     {
       "id": "Moravod",
       "name": "Moravod",
-      "sprachen":     ["Moravisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Moravisch"]
     },
     {
       "id": "Nahuatlan",
       "name": "Nahuatlan",
-      "sprachen":     ["Nahuatlantisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Nahuatlantisch"]
     },
     {
       "id": "Rawindra",
       "name": "Rawindra",
-      "sprachen":     ["Rawindi"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Rawindi"]
     },
     {
       "id": "Tegarische Steppe",
       "name": "Tegarische Steppe",
-      "sprachen":     ["Tegarisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Tegarisch"]
     },
     {
       "id": "Urruti",
       "name": "Urruti",
-      "sprachen":     ["Hurritisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Hurritisch"]
     },
     {
       "id": "Valian",
       "name": "Valian",
-      "sprachen":     ["Vallinga"],
-      "alteSprachen": ["Maralinga"],
-      "schriften":    []
+      "description": "",
+      "languages": ["Vallinga", "Maralinga"]
     },
     {
       "id": "Waeland",
       "name": "Waeland",
-      "sprachen":     ["Waelska"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Waelska"]
     },
     {
       "id": "Ywerddon",
       "name": "Ywerddon",
-      "sprachen":     ["Erainnisch", "Twyneddisch"],
-      "alteSprachen": [],
-      "schriften":    []
+      "description": "",
+      "languages": ["Erainnisch", "Twyneddisch"]
     }
+  ],
+  "languages": [
+    { "name": "Albisch",          "regions": ["Alba"] },
+    { "name": "Altoqua",          "old": true, "regions": ["Alba"] },
+    { "name": "Aranisch",         "regions": ["Aran"] },
+    { "name": "Chryseisch",       "regions": ["Chryseia"] },
+    { "name": "Dvarska",          "regions": ["Zwerge"] },
+    { "name": "Eldalyn",          "regions": ["Elfen"] },
+    { "name": "Eradórisch",       "old": true, "regions": ["Erainn"] },
+    { "name": "Erainnisch",       "regions": ["Erainn", "Ywerddon"] },
+    { "name": "Gnomenon",         "regions": ["Gnome"] },
+    { "name": "Halftan",          "regions": ["Halblinge"] },
+    { "name": "Hochcoraniaid",    "old": true, "regions": ["Erainn"] },
+    { "name": "Hurritisch",       "regions": ["Urruti"] },
+    { "name": "KanThaiTun",       "regions": ["KanThaiPan"] },
+    { "name": "Kibulugi",         "regions": ["Buluga"] },
+    { "name": "Maralinga",        "old": true, "regions": ["Chryseia", "Küstenstaaten", "Valian"] },
+    { "name": "Medjisisch",       "regions": ["Medjis"] },
+    { "name": "Meketisch",        "old": true, "regions": ["Eschar"] },
+    { "name": "Minangpahitisch",  "regions": ["Minangpahit"] },
+    { "name": "Moravisch",        "regions": ["Moravod"] },
+    { "name": "Nahuatlantisch",   "regions": ["Nahuatlan"] },
+    { "name": "Neu-Vallinga",     "regions": ["Küstenstaaten"] },
+    { "name": "Ongana",           "regions": ["Ikengabecken"] },
+    { "name": "Rawindi",          "regions": ["Rawindra"] },
+    { "name": "Scharidisch",      "regions": ["Eschar"] },
+    { "name": "Tegarisch",        "regions": ["Tegarische Steppe"] },
+    { "name": "Tuskisch",         "old": true, "regions": ["Chryseia"] },
+    { "name": "Twyneddisch",      "regions": ["Clanngadarn", "Fuardain", "Ywerddon"] },
+    { "name": "Vallinga",         "regions": ["Valian"] },
+    { "name": "Waelska",          "regions": ["Waeland"] },
+    { "name": "Comentang",        "regions": ["Überall"] }
+
+  ],
+  "scripts": [
+    { "name": "Aranische Silbenschrift",               "regions": ["Aran", "Eschar"] },
+    { "name": "Arracht-Versalien",                     "regions": ["Dunkle Sprache"] },
+    { "name": "Baumrunen Beth-Luis-Nion",              "regions": ["Elfen", "Waldgnome"] },
+    { "name": "Hurritische Keilschrift",               "regions": ["Asad", "Irsirra-Amazonen", "Urruti"] },
+    { "name": "Kanthanische Schriftzeichen",           "regions": ["KanThaiPan"] },
+    { "name": "Nahuatlantische Knotenschrift Quipu",   "regions": ["Nahuatlan"] },
+    { "name": "Rawindisches Alphabet",                 "regions": ["Minangpahit", "Rawindra"] },
+    { "name": "Valianisches Alphabet",                 "regions": ["Alba", "Chryseia", "Clanngadarn", "Comentang", "Erainn", "Halblinge", "Küstenstaaten", "Maralinga", "Moravod", "Valian", "Ywerddon"] },
+    { "name": "Zwergenrunen Futhark",                  "regions": ["Berggnome", "Waeland", "Zwerge"] },
+    { "name": "Bettlerzinken",                         "secret": true, "regions": ["Länder am Meer der Fünf Winde", "Rawindra", "Vesternesse"] },
+    { "name": "Bulugische Bilderschrift",              "secret": true, "regions": ["Buluga"] },
+    { "name": "Coraniaid-Alphabet Aibitirién",         "old": true, "secret": true, "regions": ["Erainn"] },
+    { "name": "Druidische Ogam-Zeichen",               "secret": true, "regions": ["Clanngadarn", "Fuardain", "Ywerddon"] },
+    { "name": "Lamaistische Silbenschrift",            "secret": true, "regions": ["Tegaren", "Berekyndai"] },
+    { "name": "Meketische Bilderschrift",              "old": true, "regions": ["Eschar"] },
+    { "name": "Nahuatlantische Bilderschrift",         "old": true, "secret": true, "regions": ["Nahuatlan"] },
+    { "name": "Toquinische Silbenschrift",             "old": true, "secret": true, "regions": ["Alba"] },
+    { "name": "Tuskische Keilschrift",                 "old": true, "regions": ["Chryseia"] }
   ]
 }
+   
